@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <p>Hello Project </p>
+      <p>Working on a mock website</p>
     </>
   )
 }
