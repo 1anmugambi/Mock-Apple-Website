@@ -1,6 +1,6 @@
-const API_DOMAIN = "https://gnews.io/api/v4/top-headlines?country=";
-const API_SEARCH_DOMAIN = "https://gnews.io/api/v4/search?q=";
-const API_KEY = "cb434b5c69fd6bb15036f7f26484c87f";  // Updated API key
+const API_DOMAIN = "https://newsapi.org/v2/everything?q=keyword&apiKey=877963a15492486ca2a85b2c521d2894";
+const API_SEARCH_DOMAIN = "https://newsapi.org/v2/everything?q=title,content&apiKey=877963a15492486ca2a85b2c521d2894";
+const API_KEY = "877963a15492486ca2a85b2c521d2894";  // Updated API key
 export const endpointPath = (country, category) =>
   `${API_DOMAIN}${country}&lang=en&category=${category}&apikey=${API_KEY}`;
 export const endpointSearch = (searchQuery) =>
